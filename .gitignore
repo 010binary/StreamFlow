@@ -2,3 +2,9 @@
 node_modules/
 wd.md 
 
+# env vars
+.env
+.env.dev
+
+# Linting
+.vscode/
