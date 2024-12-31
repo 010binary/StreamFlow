@@ -1,6 +1,5 @@
 # node related
 node_modules/
-wd.md 
 
 # env vars
 .env
@@ -8,3 +7,7 @@ wd.md
 
 # Linting
 .vscode/
+steps.md
+
+# Build
+dist/
