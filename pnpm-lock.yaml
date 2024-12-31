@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/node':
-        specifier: ^22.10.2
-        version: 22.10.2
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
@@ -36,6 +33,9 @@ importers:
       '@types/module-alias':
         specifier: ^2.0.4
         version: 2.0.4
+      '@types/node':
+        specifier: ^22.10.2
+        version: 22.10.2
       eslint:
         specifier: ^9.17.0
         version: 9.17.0
