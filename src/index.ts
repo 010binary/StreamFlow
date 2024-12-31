@@ -1,8 +1,10 @@
+import "./register.paths";
+
 import type { Request, Response } from "express";
 
+import env from "@config/env";
+import pino from "@middleware/logger";
 import express from "express";
-
-import pino from "@/middleware/logger";
 
 const app = express();
 
@@ -13,7 +15,7 @@ app.get("/", (req: Request, res: Response) => {
   res.send("server is running properly");
 });
 
-app.listen(3000, () => {
+app.listen(env.PORT, () => {
   // eslint-disable-next-line no-console
-  console.log("Server is running @ http://localhost:3000");
+  console.log(`Server is running @ http://localhost:${env.PORT}`);
 });

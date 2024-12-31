@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "module": "commonjs",
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["./src/*"]
+      "@middleware/*": ["./src/middleware/*"],
+      "@config/*": ["./src/config/*"],
     },
     "typeRoots": ["./node_modules/@types"],
     "types": [
